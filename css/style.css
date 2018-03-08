@@ -6,8 +6,9 @@
 }
 
 body {
-    max-width: 3000px;
+    max-width: 4000px;
     text-align: center;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -19,6 +20,10 @@ ul {
     border: solid black 0.5px;
     list-style-type: none;
     padding: 0;
+}
+
+.selected {
+    background-color: lightgray;
 }
 
 #top {
@@ -43,7 +48,7 @@ ul {
 }
 
 #left ul li:hover {
-    background-color: red;
+    background-color: lightgray;
 }
 
 #main {
