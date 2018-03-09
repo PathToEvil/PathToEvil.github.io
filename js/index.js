@@ -9,6 +9,8 @@ $(document).ready(function () {
 function configLeft() {
     /*默认选中第一个*/
     $("#left ul li")[0].className = "selected"
+    getData(0)
+    /*添加点击事件*/
     $("#left ul li").each(function (obj) {
         $(this).click(function () {
             if (this.className == "selected") {
@@ -19,6 +21,7 @@ function configLeft() {
                 })
                 this.className = "selected"
             }
+            getData(obj)
         })
     })
 }
@@ -41,3 +44,6 @@ function configRight() {
     });
 }
 
+function getData(index) {
+    alert(index)
+}
