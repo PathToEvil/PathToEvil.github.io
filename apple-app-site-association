@@ -4,16 +4,8 @@
     "details": [
       {
         "appID": "VRFE287GR5.com.qingclass.meditation",
-        "appIDs": [
-          "VRFE287GR5.com.qingclass.meditation"
-        ],
         "paths": [
           "/meditation/*"
-        ],
-        "components": [
-          {
-            "/": "/meditation/*"
-          }
         ]
       }
     ]
